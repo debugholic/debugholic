@@ -15,9 +15,9 @@
 
 ### Project A-Z
 
-같은 앱을 단계마다 기술 하나씩 얹어가며 발전시키는 학습 시리즈입니다.
-여행 플래너에서 시작해 항공 API 조회까지 확장하고, 마지막 두 단계는 기능을 고정한 채
-구조만 바꿉니다.
+실무에서 다뤄온 기술을 단계별로 정리하는 시리즈입니다.
+같은 앱에 한 단계마다 기술을 하나씩 얹어가며, 여행 플래너에서 항공 API 조회까지
+확장합니다. 마지막 두 단계는 기능을 고정한 채 구조만 바꿉니다.
 
 | | 단계 | 더하는 것 |
 |:--|:--|:--|
@@ -27,6 +27,9 @@
 | [D](https://github.com/debugholic/project-d-async-await) | async/await | 항공 API 비동기 조회 |
 | [E](https://github.com/debugholic/project-e-clean-architecture) | Clean Architecture | 기능 고정, 구조만 재구성 |
 | [F](https://github.com/debugholic/project-f-xctest) | XCTest | Mock 주입으로 UseCase·ViewModel 검증 |
+
+이어지는 단계에서 **Swift Package Manager · Tuist · Micro Feature Architecture** 를 다룹니다.
+실무에서 16개 앱의 공통 모듈과 6개 앱의 MFA 전환에 적용해 온 구조입니다.
 
 ---
 
