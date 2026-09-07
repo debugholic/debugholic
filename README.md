@@ -33,7 +33,7 @@
 | [J](https://github.com/debugholic/project-j-tuist) | Tuist | 손으로 만들던 `.xcodeproj` 를 매니페스트로 대체 |
 
 I·J 는 기능을 고정한 채 구조만 바꿉니다 — 앱을 모듈로 쪼개고(I), 그 선언을 Tuist 매니페스트로 옮깁니다(J).
-실무에서 16개 앱의 공통 모듈과 6개 앱의 MFA 전환에 적용해 온 구조입니다.
+실무에서 16개 앱의 공통 모듈과 6개 앱의 Micro Feature Architecture 전환에 적용해 온 구조입니다.
 
 이후 단계에서 **Core Data · CloudKit · APNs · SwiftData · Objective-C 연동 · Swift Testing · UI Test · CI/CD** 를 다룹니다.
 
