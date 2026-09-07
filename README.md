@@ -16,8 +16,8 @@
 ### Project A-Z
 
 실무에서 다뤄온 기술을 단계별로 정리하는 시리즈입니다.
-같은 앱에 한 단계마다 기술을 하나씩 얹어가며, 여행 플래너에서 항공 API 조회까지
-확장합니다. 마지막 두 단계는 기능을 고정한 채 구조만 바꿉니다.
+같은 앱에 한 단계마다 기술을 하나씩 얹어가며, 여행 플래너 하나를 항공 API 조회와
+여행 일정표까지 키우고, 그다음엔 같은 앱을 모듈로 다시 짭니다.
 
 | | 단계 | 더하는 것 |
 |:--|:--|:--|
@@ -27,9 +27,15 @@
 | [D](https://github.com/debugholic/project-d-async-await) | async/await | 항공 API 비동기 조회 |
 | [E](https://github.com/debugholic/project-e-clean-architecture) | Clean Architecture | 기능 고정, 구조만 재구성 |
 | [F](https://github.com/debugholic/project-f-xctest) | XCTest | Mock 주입으로 UseCase·ViewModel 검증 |
+| [G](https://github.com/debugholic/project-g-swiftui) | SwiftUI | `UIHostingController` 상호운용, 새 화면만 SwiftUI |
+| [H](https://github.com/debugholic/project-h-spm) | Swift Package Manager | 로컬 패키지, 리소스 번들과 `Bundle.module` |
+| [I](https://github.com/debugholic/project-i-micro-feature-architecture) | Micro Feature Architecture | 앱을 모듈 36개로 분해, Interface 의존 |
+| [J](https://github.com/debugholic/project-j-tuist) | Tuist | 손으로 만들던 `.xcodeproj` 를 매니페스트로 대체 |
 
-이어지는 단계에서 **Swift Package Manager · Tuist · Micro Feature Architecture** 를 다룹니다.
+I·J 는 기능을 고정한 채 구조만 바꿉니다 — 앱을 모듈로 쪼개고(I), 그 선언을 Tuist 매니페스트로 옮깁니다(J).
 실무에서 16개 앱의 공통 모듈과 6개 앱의 MFA 전환에 적용해 온 구조입니다.
+
+이후 단계에서 **Core Data · CloudKit · APNs · SwiftData · Objective-C 연동 · Swift Testing · UI Test · CI/CD** 를 다룹니다.
 
 ---
 
