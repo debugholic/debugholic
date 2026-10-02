@@ -1,15 +1,14 @@
 ## 김영훈 · iOS Developer
 
-교육 서비스 iOS 앱 18개를 담당하고 있습니다.
-개별 앱을 고치는 일에서 시작해 공통 모듈과 아키텍처, 빌드·배포 환경까지
-팀의 개발 기반을 정리하는 쪽으로 범위를 넓혀 왔습니다.
+교육 서비스 iOS 앱을 만들고, 여러 앱이 함께 쓰는 모듈과 아키텍처,
+빌드·배포 환경을 다듬고 있습니다.
 
-- 공통 기능을 모듈로 분리해 **16개 앱**에 적용
-- Tuist 기반 **Micro Feature Architecture** 를 **6개 앱**에 점진 전환
-- DevOps 조직이 없는 환경에서 GitHub Actions **CI/CD 직접 구축**
+- 공통 모듈 분리와 Tuist 기반 Micro Feature Architecture 전환
+- GitHub Actions로 CI/CD 구축
+- [Litmus](https://github.com/debugholic/litmus) — Swift용 뮤테이션 테스트·flaky 테스트 탐지 도구
 
-**[📄 포트폴리오](https://debugholic.github.io/swift-docc-blog/documentation/portfolio/)** ·
-**[📝 블로그](https://debugholic.github.io/swift-docc-blog/documentation/blog/)**
+[포트폴리오](https://debugholic.github.io/swift-docc-blog/documentation/portfolio/) ·
+[블로그](https://debugholic.github.io/swift-docc-blog/documentation/blog/)
 
 ---
 
@@ -33,7 +32,7 @@
 | [J](https://github.com/debugholic/project-j-tuist) | Tuist | 손으로 만들던 `.xcodeproj` 를 매니페스트로 대체 |
 
 I·J 는 기능을 고정한 채 구조만 바꿉니다 — 앱을 모듈로 쪼개고(I), 그 선언을 Tuist 매니페스트로 옮깁니다(J).
-실무에서 16개 앱의 공통 모듈과 6개 앱의 Micro Feature Architecture 전환에 적용해 온 구조입니다.
+실무의 공통 모듈과 Micro Feature Architecture 전환에 적용해 온 구조입니다.
 
 이후 단계에서 **Core Data · CloudKit · APNs · SwiftData · Objective-C 연동 · Swift Testing · UI Test · CI/CD** 를 다룹니다.
 
